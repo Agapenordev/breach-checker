@@ -72,8 +72,8 @@ def graphcreation():
 
 
     fig, axes = plt.subplots(2, 1)
-    axes[0].set_xlabel("Number of Breaches")
-    axes[0].set_ylabel("Year")
+    axes[0].set_xlabel("Year")
+    axes[0].set_ylabel("Number of Breaches")
     axes[0].set_title("Breaches Per Year Graph")
 
     axes[1].set_xlabel("Number of Breaches")
